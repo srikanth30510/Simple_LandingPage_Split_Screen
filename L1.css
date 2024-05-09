@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,  #f88c8c 50%, rgb(242, 162, 213) 50%);
+}
+ li{
+    float: right;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 10%;
+    height: 25px;
+} 
+a{
+    color: maroon;
+    font-size: 19px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    border-radius: 2em;
+    font-size:24px ;
+}
+.half1{
+background-color: rgb(242, 162, 213);
+width:50%;
+float: left;
+height:510px;
+margin-top: 25px;
+}
+.half2{
+background-color: #f88c8c;
+width: 50%;
+float:right;
+height: 510px;
+}
+h1{
+    color:rgb(255, 25, 0);
+}
+.Login{
+    margin-left: 25%;
+    margin-right: 25%;  
+    
+}
+h1{
+    display: block;
+    margin-left: 30%;
+    /* margin-right: 50%; */
+}
+label{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #fff;
+   
+    font-size: 20px;
+}
+input{
+    display: block;
+    width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid  rgb(242, 162, 213);
+    border-radius: 5px;
+    background-color:  #f88c8c;
+}
+.in{
+    display: block;
+    width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid  rgb(242, 162, 213);
+    border-radius: 5px;
+    background-color:  rgb(242, 162, 213); 
+}
+.bt:hover{
+    background-color:#f88c8c 
+}
+button{
+    margin-left: 40%;
+    padding: 5px;
+    margin-top: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+   background-color:rgb(197, 204, 106);
+}
+button:hover{
+    border-radius: 2em;
+    background-color:  rgb(242, 162, 213);
+}
+p{
+    padding: 10px;
+    color: black;
+}
+p.a{
+    color: white;
+    color: aqua;
+}
